@@ -8,7 +8,7 @@ export const filterStripConfig = [
     isClearable: true,
     isRequired: false,
     isSearchable: false,
-    value: [{ label: "Fully paid", value: "Fully paid" }],
+    value: [],
     options: [
       { label: "Payment Pending", value: "Payment pending" },
       { label: "In dispute", value: "In dispute" },
