@@ -1,0 +1,16 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: #F0F5FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App > .container {
+  width: 80%;
+  border-radius: 5px;
+  height: 80%;
+  overflow: scroll;
+  background-color: #FFFFFF;
+}
