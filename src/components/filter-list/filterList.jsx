@@ -49,14 +49,11 @@ export function FilterList() {
   };
 
   const handlePredefinedFilterChange = ({ id, option }) => {
-    console.log({ id, option });
     const {
       name: fieldName,
       componentType,
       isDateField,
     } = preDefinedFilters.find((el) => el.id === id);
-
-    console.log({ fieldName, componentType, isDateField });
 
     const data = transformFilterDataBasedOnType({
       fieldName,

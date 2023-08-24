@@ -35,8 +35,6 @@ const CustomFilters = ({ otherFilters, handleCustomFilter }) => {
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
 
-  console.log({ otherFilters });
-
   const otherFiltersOption = otherFilters.map((filter) => ({
     id: filter.id,
     label: filter.name,

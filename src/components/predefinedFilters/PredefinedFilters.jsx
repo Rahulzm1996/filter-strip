@@ -34,7 +34,6 @@ const PredefinedFilters = ({
   removePredefinedFilter,
   handlePredefinedFilterChange,
 }) => {
-  console.log({ preDefinedFilters });
   return (
     <PredefinedFiltersWrapper>
       {preDefinedFilters?.map((filter) => {
