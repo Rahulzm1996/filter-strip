@@ -8,16 +8,7 @@ import { transformFilterDataBasedOnType } from "../../utils/common";
 
 import { isEmpty } from "lodash";
 
-const FilterStripContainer = styled.div`
-  width: 100%;
-  .filter-strip {
-    padding: 20px;
-    background-color: #f3fafd;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-`;
+import { FilterStripContainer } from "./styles";
 
 export function FilterList() {
   const [filtersConfig, setFiltersConfig] = useState(filterStripConfig);

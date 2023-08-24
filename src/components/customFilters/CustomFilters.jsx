@@ -2,24 +2,9 @@ import React from "react";
 import AddIcon from "@mui/icons-material/Add";
 import Button from "@mui/material/Button";
 import Popover from "@mui/material/Popover";
-import Typography from "@mui/material/Typography";
-import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
-import { styled } from "@mui/system";
-
-const StyledList = styled(List)({
-  "& .MuiListItem-root": {
-    cursor: "pointer",
-    borderBottom: "1px solid #fafafa",
-  },
-
-  "& .single-list": {
-    "& :hover": {
-      background: "#f5f5f5",
-    },
-  },
-});
+import { StyledList } from "./styles";
 
 const CustomFilters = ({ otherFilters, handleCustomFilter }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
