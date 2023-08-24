@@ -16,6 +16,7 @@ const PredefinedFiltersWrapper = styled.div`
       top: -15px;
       left: -12px;
       transition: "all 0.5s linear";
+      z-index: 10;
     }
 
     &:hover {

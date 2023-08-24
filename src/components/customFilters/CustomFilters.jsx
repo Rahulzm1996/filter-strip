@@ -51,7 +51,7 @@ const CustomFilters = ({ otherFilters, handleCustomFilter }) => {
         startIcon={<AddIcon />}
         disabled={!otherFiltersOption.length}
       >
-        Custom Filters...
+        Custom Filters
       </Button>
       {otherFiltersOption.length > 0 && (
         <Popover
